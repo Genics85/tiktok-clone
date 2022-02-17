@@ -6,10 +6,6 @@ function App() {
     <div className="app">
       <div className='app__videos'>
         <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
         </div>
     </div>
   );

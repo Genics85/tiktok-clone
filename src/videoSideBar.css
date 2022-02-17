@@ -1,0 +1,10 @@
+.sidebar{
+    position:absolute;
+    top: 50%;
+    right: 10px;
+    color: white;
+}
+.sidebar__option{
+    padding: 10px;
+    text-align: center;
+}

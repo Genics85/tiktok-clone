@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import "./video.css"
 import VideoFooter from './videoFooter';
+import VideoSideBar from './videoSideBar';
 
 function Video() {
   const videoRef=useRef(null);
@@ -28,8 +29,14 @@ function Video() {
         >
 
         </video>
+        <VideoFooter
+          handle="Genics"
+          caption="Learning how to dance"
+          title="Sarkodie - Happy day"
+        />
+        <VideoSideBar/>
+
         
-        <VideoFooter/>
     </div>
   )
 }

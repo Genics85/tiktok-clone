@@ -3,21 +3,21 @@ import "./videofooter.css"
 import {Chat, ChatBubble, MusicNote, MusicNoteIcon} from "@material-ui/icons";
 import Ticker from "react-ticker";
 
-function VideoFooter() {
+function VideoFooter({handle,caption,title}) {
   return (
     <div
     className='videofooter'
     >
         <div className='footer__text'>
-            <h3>@Genicist</h3> 
-            <h5>Description</h5>
+            <h3>@{handle}</h3> 
+            <h5>{caption}</h5>
             <div className="footer__ticker">
                 <MusicNote className='footer__icon'/>
 
                 <Ticker mode="smooth" className="ticker">
                     {({index})=>(
                         <>
-                        <p>hello this is from genics</p>
+                        <p> {title} </p>
                         </>
                     )}
 
