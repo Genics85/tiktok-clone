@@ -4,7 +4,8 @@
     width: 80%;
     scroll-snap-align: start;
     border: 3px solid blue;
-    background-color: white;
+    background-color: red;
+    border-radius: 20px;
 
 }
 .video__player{
