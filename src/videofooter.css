@@ -1,7 +1,7 @@
 .videofooter{
     position:relative;
     color: white;
-    bottom: 60px;
+    bottom: 90px;
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
@@ -11,12 +11,30 @@
     height: 50px;
     width: 50px;
     animation: spinTheRecord infinite 5s linear;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    /* filter: invert(1); */
  
 }
 
 .footer__text{
     flex: 1;
+    padding-bottom: 20px;
 }
+
+.footer__icon{
+    position:absolute;
+    margin-right: 20px;
+}
+
+.footer__ticker> .ticker{
+
+    height: fit-content;
+    margin-left: 30px;
+    width: 60%;
+}
+
 
 @keyframes spinTheRecord{
     from {
