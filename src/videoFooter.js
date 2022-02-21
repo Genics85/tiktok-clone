@@ -1,6 +1,6 @@
 import React from 'react'
 import "./videofooter.css"
-import {Chat, ChatBubble, MusicNote, MusicNoteIcon} from "@material-ui/icons";
+import { MusicNote} from "@material-ui/icons";
 import Ticker from "react-ticker";
 
 function VideoFooter({handle,caption,title}) {
@@ -30,7 +30,7 @@ function VideoFooter({handle,caption,title}) {
         
         <img 
             className='footer__image'
-            src='https://image.pngaaa.com/178/1590178-small.png'
+            src="img\record.png"
              alt=''
         />
             

@@ -7,16 +7,17 @@
     padding-right: 10px;
     
 }
+
 .footer__image{
     height: 50px;
     width: 50px;
-    animation: spinTheRecord infinite 5s linear;
+    /* animation: spinTheRecord infinite 5s linear; */
     position: absolute;
     right: 0px;
     bottom: 20px;
     /* filter: invert(1); */
- 
 }
+
 
 .footer__text{
     flex: 1;
